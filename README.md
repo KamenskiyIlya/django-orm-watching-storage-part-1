@@ -32,3 +32,7 @@ python main.py
 
 <img width="919" height="187" alt="image" src="https://github.com/user-attachments/assets/270b0a07-7072-4c31-82df-2ffd294cf570" />
 
+### Цель проекта
+
+Данный проект создан в учебных целях.
+
