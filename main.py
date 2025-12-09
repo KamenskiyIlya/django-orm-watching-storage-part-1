@@ -25,7 +25,7 @@ if __name__ == '__main__':
     active_passcards = Passcard.objects.filter(is_active=True)
 
     print('Количество пропусков:', Passcard.objects.count())  # noqa: T001
-    print('Активных пропусков: ', len(active_passcards))
+    print('Активных пропусков: ', active_passcards.count())
     
     passcard_details = passcard_content(passcards)
     for details, value in passcard_details.items():
